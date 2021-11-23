@@ -3,8 +3,8 @@ Title: WGU C195 Appointment Scheduling system
 Purpose: The purpose of this project is to deliver a GUI-based scheduling desktop application so that users can
 create appointments for customers of their orginazation. 
 
-Author: Scott Moore #001070276
-Contact Information: smoo377@wgu.edu
+Author: Skye Moore #001070276
+Contact Information: diamondsintheskye01@gmail.com
 Application version: PRFA - QAM2
 Date: 11/13/2021
 
