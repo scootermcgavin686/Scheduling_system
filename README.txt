@@ -11,6 +11,7 @@ Date: 11/13/2021
 IDE: IntelliJ Community Edition version no. 2021.2.3
 Java: Java SE 11.0.11
 JavaFX: javafx-sdk-11.0.2
+MySQL Connection Driver: mysql-connector-java-8.0.26
 
 Directions: When the user has started the application a login screen will display showing them a User ID and Pass
 Word textfields. The form will be translated between French and English depending on the user's language settings.
@@ -32,5 +33,3 @@ has scheduled by clicking on that customer in the customer table. I believe this
 need to select a customer in order to delete it from the application and this will display all of the appointments
 that you will be deleting with that customer. The user will be able to check and verify that there were no importan
 appointments that will still need to be taken care of before they delete them entirely. 
-
-MySQL Connection Driver: mysql-connector-java-8.0.26
