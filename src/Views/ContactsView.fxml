@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="226.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ContactsController">
+   <children>
+      <TableView fx:id="allContactsTable" layoutX="15.0" layoutY="38.0" prefHeight="121.0" prefWidth="361.0">
+        <columns>
+          <TableColumn fx:id="contactIDColumn" prefWidth="75.0" text="Contact ID" />
+          <TableColumn fx:id="contactNameColumn" minWidth="0.0" prefWidth="121.0" text="Contact Name" />
+            <TableColumn fx:id="emailAddressColumn" prefWidth="164.0" text="Email Address" />
+        </columns>
+      </TableView>
+      <Label layoutX="14.0" prefHeight="38.0" prefWidth="145.0" text="Contacts">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="back" layoutX="149.0" layoutY="174.0" mnemonicParsing="false" onAction="#backToMain" prefHeight="38.0" prefWidth="94.0" text="Back" />
+   </children>
+</AnchorPane>

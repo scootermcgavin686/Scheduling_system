@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="572.0" prefWidth="764.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ReportsController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="31.0" prefWidth="92.0" text="Reports">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="69.0" prefHeight="31.0" prefWidth="181.0" text="Number of Appointments:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="typeCombo" layoutX="195.0" layoutY="72.0" prefHeight="25.0" prefWidth="133.0" promptText="Type" />
+      <ComboBox fx:id="monthCombo" layoutX="331.0" layoutY="72.0" prefHeight="25.0" prefWidth="115.0" promptText="Month" />
+      <Label fx:id="numberOfAppointments" layoutX="195.0" layoutY="107.0" prefHeight="25.0" prefWidth="361.0" />
+      <TableView fx:id="appointmentTable" layoutX="14.0" layoutY="202.0" prefHeight="256.0" prefWidth="736.0">
+        <columns>
+          <TableColumn fx:id="appointmentID" prefWidth="41.0" text="ID" />
+          <TableColumn fx:id="title" prefWidth="91.0" text="Title" />
+            <TableColumn fx:id="type" prefWidth="93.0" text="Type" />
+            <TableColumn fx:id="description" prefWidth="131.0" text="Description" />
+            <TableColumn fx:id="start" prefWidth="140.0" text="Start" />
+            <TableColumn fx:id="end" prefWidth="144.0" text="End" />
+            <TableColumn fx:id="customerID" prefWidth="95.0" text="Customer ID" />
+        </columns>
+      </TableView>
+      <Label layoutX="14.0" layoutY="166.0" prefHeight="31.0" prefWidth="181.0" text="Appointments by Contact: ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="contactsCombo" layoutX="195.0" layoutY="169.0" prefHeight="25.0" prefWidth="133.0" promptText="Contacts" />
+      <Button layoutX="645.0" layoutY="517.0" mnemonicParsing="false" onAction="#back" prefHeight="31.0" prefWidth="102.0" text="Back" />
+      <Button fx:id="find" layoutX="449.0" layoutY="72.0" mnemonicParsing="false" onAction="#searchAppt" text="find" />
+      <Button fx:id="findAppointments" layoutX="337.0" layoutY="169.0" mnemonicParsing="false" onAction="#ListOFAppointments" text="Find Appointments" />
+   </children>
+
+</AnchorPane>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="569.0" prefWidth="431.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.AppointmentController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="33.0" prefWidth="171.0" text="Appointment">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="72.0" prefHeight="27.0" prefWidth="129.0" text="Appointment ID:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="113.0" prefHeight="27.0" prefWidth="129.0" text="Title:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="158.0" prefHeight="27.0" prefWidth="129.0" text="Description:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="201.0" prefHeight="27.0" prefWidth="129.0" text="Location:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="243.0" prefHeight="27.0" prefWidth="129.0" text="Contact:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="286.0" prefHeight="27.0" prefWidth="129.0" text="Type:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="334.0" prefHeight="27.0" prefWidth="129.0" text="Start Date and Time:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="375.0" prefHeight="27.0" prefWidth="129.0" text="End Time:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="422.0" prefHeight="27.0" prefWidth="129.0" text="Customer ID:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="470.0" prefHeight="27.0" prefWidth="129.0" text="User ID: ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="appointmentIDText" alignment="CENTER" disable="true" editable="false" layoutX="218.0" layoutY="73.0" prefHeight="25.0" prefWidth="197.0" promptText="Auto-Generated" />
+      <TextField fx:id="titleText" layoutX="218.0" layoutY="114.0" prefHeight="25.0" prefWidth="197.0" />
+      <TextField fx:id="descriptionText" layoutX="218.0" layoutY="159.0" prefHeight="25.0" prefWidth="197.0" />
+      <TextField fx:id="locationText" layoutX="218.0" layoutY="202.0" prefHeight="25.0" prefWidth="197.0" />
+      <ComboBox fx:id="contactsComboBox" layoutX="218.0" layoutY="244.0" prefHeight="25.0" prefWidth="197.0" />
+      <TextField fx:id="typeText" layoutX="218.0" layoutY="287.0" prefHeight="25.0" prefWidth="197.0" />
+      <TextField fx:id="startDate" alignment="CENTER" layoutX="218.0" layoutY="335.0" prefHeight="25.0" prefWidth="93.0" promptText="YYYY-MM-DD" />
+      <TextField fx:id="startTime" alignment="CENTER" layoutX="322.0" layoutY="335.0" prefHeight="25.0" prefWidth="93.0" promptText="HH:MM" />
+      <TextField fx:id="endTime" alignment="CENTER" layoutX="322.0" layoutY="376.0" prefHeight="25.0" prefWidth="93.0" promptText="HH:MM" />
+      <ComboBox fx:id="customerIDCombo" layoutX="218.0" layoutY="423.0" prefHeight="25.0" prefWidth="197.0" />
+      <ComboBox fx:id="userIDCombo" layoutX="218.0" layoutY="471.0" prefHeight="25.0" prefWidth="197.0" />
+      <Button layoutX="218.0" layoutY="521.0" mnemonicParsing="false" onAction="#saveAppointment" prefHeight="27.0" prefWidth="93.0" text="Save" />
+      <Button layoutX="322.0" layoutY="521.0" mnemonicParsing="false" onAction="#back" prefHeight="27.0" prefWidth="93.0" text="Back" />
+   </children>
+</AnchorPane>
