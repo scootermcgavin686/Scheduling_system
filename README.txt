@@ -5,7 +5,7 @@ create appointments for customers of their orginazation.
 
 Author: Skye Moore #001070276
 Contact Information: diamondsintheskye01@gmail.com
-Application version: PRFA - QAM2
+Application version: SchedSys - V2
 Date: 11/13/2021
 
 IDE: IntelliJ Community Edition version no. 2021.2.3
@@ -13,7 +13,7 @@ Java: Java SE 11.0.11
 JavaFX: javafx-sdk-11.0.2
 
 Directions: When the user has started the application a login screen will display showing them a User ID and Pass
-word textfields. The form will be translated between French and English depending on the user's language settings.
+Word textfields. The form will be translated between French and English depending on the user's language settings.
 Once the user has entered valid credentials, they will be directed into the main screen. This screen will allow 
 the user to choose between customers, contacts and reports. When the user clicks on the Customers button, they will
 be directed to the Customer screen where they can create new customers and appointments for those customers. To add
